@@ -1,0 +1,13 @@
+2025-05-08T13:04:39.040Z error:500-incorrect email or password -undefined-/api/auth/login-::1
+2025-05-08T16:08:34.569Z error:500-incorrect email or password -undefined-/api/auth/login-::1
+2025-05-08T18:06:28.649Z error:500-jwt expired-undefined-/api/booking/create-::1
+2025-05-08T18:09:23.956Z error:500-Booking validation failed: property: Path `property` is required.-undefined-/api/booking/create-::1
+2025-05-08T18:20:07.674Z error:500-Bookings details not found-undefined-/api/booking/user-bookings/681b03795f474ee12991473b-::1
+2025-05-09T06:00:24.496Z error:500-Tooken Not found in adminmiddleware,Unauthorized user!-undefined-/api/admin/all-users-::1
+2025-05-09T06:04:24.865Z error:500-User validation failed: mobile: Cast to Number failed for value "+91-9876543210" (type string) at path "mobile"-undefined-/api/auth/register-::1
+2025-05-09T06:05:02.234Z error:500-Cannot read properties of undefined (reading 'isAdmin')-undefined-/api/admin/all-users-::1
+2025-05-09T06:08:12.444Z error:500-Access Denied from user.isAdmin -undefined-/api/admin/all-users-::1
+2025-05-09T06:09:39.977Z error:500-Cannot read properties of undefined (reading 'isAdmin')-undefined-/api/admin/all-users-::1
+2025-05-09T06:11:05.597Z error:500-Cannot read properties of undefined (reading 'isAdmin')-undefined-/api/admin/all-users-::1
+2025-05-09T06:12:00.976Z error:500-error in adminMiddleware-undefined-/api/admin/all-users-::1
+2025-05-09T06:17:40.418Z error:500-User not found -undefined-/api/auth/login-::1

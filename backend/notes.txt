@@ -1,0 +1,228 @@
+we made pre methods and some other static methods
+jwtAthToken method
+
+authentiaate user
+
+
+authmiddleware
+{
+    requre all required things
+
+    make authMiddlearw
+
+    now in the route file we will make aunther .current-user api and we have required and uasser authmddleware herer
+
+
+
+
+
+
+ we have saved our token in the redis
+
+ humare token ke session time ke baad koi or bumari cookei ko save kar kar log in nhi kar paye uske liye redis ka use karte ha humare
+
+
+
+
+install winston 
+ winstan humari errori ko ache se show karne ke liye use karte h 
+
+ in utils we will make a logger.js here we will write the winston code
+
+  middlewares errorHandler -->logger yaha use karenge
+
+}
+
+
+
+
+
+24-04-25
+
+{
+  winston and morgan
+
+
+
+  property route banayenge -->property controller -->property model
+  property route ke ander hum char api bnnge-->uske liye char controller bnayenge-->
+
+  CRUD OPERATION 
+  
+  propertycreatecontroller
+  deletepropertycontroller
+  updatepropertycontroller
+  viewpropertycontroller
+
+  
+}
+
+
+
+
+
+25=04=25
+
+{
+
+   will make searchproperty route
+  const query{
+
+
+this we have made to search the locations
+
+booking sxchema banayenge
+
+
+ 
+
+  }
+}
+
+
+{
+
+  nodemailer 
+
+  google per jao url me apppassword per hit karo pasward daalo or nodemailer bano
+
+waha jo password aata ha usse copy kar kar pass me pass kardoc  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
