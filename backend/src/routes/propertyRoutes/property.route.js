@@ -13,4 +13,6 @@ router.get('/view/:id',authMiddleware,propertyController.viewPropertyController)
 
 router.get("/search",authMiddleware, propertyController.searchPropertyController);
 
+router.get('/my-property',authMiddleware,propertyController.viewMyPropertyController);
+
 module.exports=router;

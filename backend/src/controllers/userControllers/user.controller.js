@@ -30,7 +30,7 @@ const registerController = async (req, res, next) => {
     res.cookie("token", token, {
       httpOnly: true,
       sameSite: "none",
-      secure: true, // Required for sameSite "none" on modern browsers
+      // secure: true, // Required for sameSite "none" on modern browsers
     });
 
     res.status(201).json({
@@ -58,8 +58,13 @@ const loginController = async (req, res, next) => {
     res.cookie("token", token, {
       httpOnly: true,
       sameSite: "none",
+      secure:true
     });
 
+    
+  //   const cookietoken=req.cookies;
+
+  // console.log("ccokeii token-->",cookietoken.token)
     res.status(200).json({ message: "user logged in", token: token });
   } catch (error) {
     next(new CustomError(error.message, 500));
@@ -164,5 +169,6 @@ module.exports = {
   logoutController,
   currentUserController,
   updateUserProfile,
+  resetPasswordController
 
 };
